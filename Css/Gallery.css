@@ -1,0 +1,182 @@
+
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+	height: 35px;
+	width: 120px;
+}
+.mr-auto2{
+	margin-left: auto!important;
+}
+.navbar{
+	border-bottom: 1px #ccc solid;
+}
+#navbarResponsive>ul>li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #007bff;
+}
+
+/*Fotter*/
+.footer-top { padding: 60px 0 40px 0; text-align: left; }
+.footer-top h3 { padding-bottom: 10px; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #ddd; }
+.footer-contact p a { border-bottom: 1px dashed #ccc; }
+.footer-contact p a:hover, .footer-contact p a:focus { border-bottom: 1px dashed #856dc0; }
+
+.footer-links a { color: #888; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color:  #007bff; margin-left: 3px; }
+
+.footer-bottom { padding: 0 0 60px 0; }
+
+.footer-social a { margin: 0 10px; color: #bbb; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color:  #007bff; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+/*Return to top*/
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	background: #182f76;
+	border-color: #182f76;
+}
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+body {
+    margin-top: 1rem;
+}
+img {
+  max-width: 100%;
+}
+.filtr-item {
+    padding: 1rem;
+}
+.item-desc {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+/* Filter controls */
+.simplefilter, .multifilter, .sortandshuffle, .search-row {
+  padding-left: 0;
+}
+.simplefilter li, .multifilter li, .sortandshuffle li {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+}
+.simplefilter li {
+    background-color: #585858;
+}
+.simplefilter li.active {
+    background-color: #212121;
+}
+.multifilter li {
+    background-color: #4b9eff;
+}
+.multifilter li.active {
+    background-color: #2265b4;
+}
+
+.filtr-container,
+.color-container-1,
+.color-container-2,
+.color-container-3,
+.color-container-4 {
+  transition: height 500ms ease-out;
+}
+
+/* image thumbnail */
+.thumb {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+/* Style to article Author */
+.by-author {
+    font-style: italic;
+    line-height: 1.3;
+    color: #aab6aa;
+}
+
+/* Main Article [Module]
+-------------------------------------
+* Featured Article Thumbnail
+* have a image and a text title.
+*/
+.featured-article {
+    width: 482px;
+    height: 350px;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.featured-article .block-title {
+    /* Position & Box Model */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    /* background */
+    background: rgba(0,0,0,0.7);
+    /* Width/Height */
+    padding: .5em;
+    width: 100%;
+    /* Text color */
+    color: #fff;
+}
+
+.featured-article .block-title h2 {
+    margin: 0;
+}
+
+/* Featured Articles List [BS3]
+--------------------------------------------
+* show the last 3 articles post
+*/
+
+.main-list {
+    padding-left: .5em;
+}
+
+.main-list .media {
+    padding-bottom: 1.1em;
+    border-bottom: 1px solid #e8e8e8;
+}

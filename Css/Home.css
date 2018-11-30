@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i");
+body {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #777777; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600; }
+.logo{
+	height: 35px;
+	width: 120px;
+}
+.mr-auto2{
+	margin-left: auto!important;
+}
+#services .container{
+	text-align: center;
+}
+.navbar{
+	border-bottom: 1px #ccc solid;
+}
+#navbarResponsive>ul>li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #007bff;
+}
+.carousel-caption{
+	color: #ccc;
+}
+.carousel-indicators li {
+	border-radius: 12px;
+	width: 12px;
+	height: 12px;
+	background-color: #404040;
+}
+a>.fas{
+	font-size: 50px;
+	color: #ffffff;
+}
+.icongrid>.row div *{
+	padding-bottom: 20px;
+}
+p{
+	font-size: 14px;
+}
+.header-blue .iphone-mockup .screen{
+	background-image: url(../Images/skyscraper.jpg);
+}
+.whitetext{
+	color: white;
+}
+.fa-desktop{
+	padding-right: 15px;
+}
+.hero{
+  padding-top: 40px;
+}
+/*Fotter*/
+.footer-top { padding: 60px 0 40px 0; text-align: left; }
+.footer-top h3 { padding-bottom: 10px; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #ddd; }
+.footer-contact p a { border-bottom: 1px dashed #ccc; }
+.footer-contact p a:hover, .footer-contact p a:focus { border-bottom: 1px dashed #856dc0; }
+
+.footer-links a { color: #888; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color:  #007bff; margin-left: 3px; }
+
+.footer-bottom { padding: 0 0 60px 0; }
+
+.footer-social a { margin: 0 10px; color: #bbb; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color:  #007bff; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+/*Return to top*/
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	background: #182f76;
+	border-color: #182f76;
+}
+
+/*Collapse*/
+.made_life_area{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.gdbackground{
+  background: linear-gradient(270deg,#1916b9,#007bff, #eca2f1,#9600d4);
+  background-size: 400% 400%;
+  animation: gradientbg 7s infinite;
+  padding-bottom: 120px;
+
+}
+@keyframes gradientbg { 
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+.textgradient {
+  background-image: linear-gradient(to right, #007bff, #1916b9 33%, #9600d4 66%, #eca2f1);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/*Button Gradient*/
+.primary_btn {
+  display: inline-block;
+  color: #22195e;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 47px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: double 2px transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #007bff, #eca2f1);
+  background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #007bff, #eca2f1);
+  background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #007bff, #eca2f1);
+  background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #007bff, #eca2f1);
+  background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #007bff, #eca2f1);
+  background-origin: border-box;
+  background-clip: content-box, border-box; }
+  .primary_btn span {
+    padding: 0 35px; }
+  .primary_btn:hover {
+    background-image: linear-gradient(to right, #007bff 0%, #eca2f1 100%), radial-gradient(circle at top left, #007bff, #eca2f1);
+    background-image: -webkit-linear-gradient(to right, #007bff 0%, #eca2f1 100%), -webkit-radial-gradient(circle at top left, #007bff, #eca2f1);
+    background-image: -moz-linear-gradient(to right, #007bff 0%, #eca2f1 100%), -moz-radial-gradient(circle at top left, #007bff, #eca2f1);
+    background-image: -ms-linear-gradient(to right, #007bff 0%, #eca2f1 100%), -ms-radial-gradient(circle at top left, #007bff, #eca2f1);
+    background-image: -o-linear-gradient(to right, #007bff 0%, #eca2f1 100%), -o-radial-gradient(circle at top left, #007bff, #eca2f1);
+    color: #fff;
+    box-shadow: 0px 10px 30px rgba(130, 82, 250, 0.2);
+    border: 2px solid transparent; }
